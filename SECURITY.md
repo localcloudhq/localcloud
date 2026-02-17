@@ -2,7 +2,7 @@
 
 Please **do not** report security vulnerabilities via public GitHub issues.
 
-Email: support@localcloud.dev (subject: `SECURITY: <summary>`)
+Email: support@eyequs.com (subject: `SECURITY: <summary>`)
 
 Include:
 - Product + version (`localcloud --version`)

@@ -1,6 +1,6 @@
 # Support
 
-LocalCloud is provided for **evaluation and testing purposes only** and is provided **"AS IS"** with **no warranties or guarantees**. Support is **best-effort** and response times are not guaranteed.
+LocalCloud (by **EyeQ, Inc.**) is provided for **evaluation and testing purposes only** and is provided **"AS IS"** with **no warranties or guarantees**. Support is **best-effort** and response times are not guaranteed.
 
 ## How to get help
 
@@ -19,4 +19,4 @@ LocalCloud is provided for **evaluation and testing purposes only** and is provi
 
 ## Contact
 
-- Email: support@localcloud.dev
+- Email: support@eyequs.com

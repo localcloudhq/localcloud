@@ -4,8 +4,8 @@ contact_links:
     url: https://docs.localcloud.dev
     about: Installation, configuration, troubleshooting, and usage docs.
   - name: Support (Email)
-    url: mailto:support@localcloud.dev
+    url: mailto:support@eyequs.com
     about: Private support requests, licensing, or sensitive issues.
   - name: Security
-    url: mailto:support@localcloud.dev?subject=SECURITY%3A%20LocalCloud%20Report
+    url: mailto:support@eyequs.com?subject=SECURITY%3A%20LocalCloud%20Report
     about: Report security vulnerabilities privately (do not open public issues).

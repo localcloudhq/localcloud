@@ -1,6 +1,6 @@
 # LocalCloud
 
-This repository is the **public issue tracker** and customer-facing meta repository for **LocalCloud**.
+This repository is the **public issue tracker** and customer-facing meta repository for **LocalCloud** (by **EyeQ, Inc.**).
 
 - Downloads: https://get.localcloud.dev
 - Release manifests: https://releases.localcloud.dev/stable/manifest.json
@@ -23,4 +23,4 @@ Please include:
 
 ## Security Reports
 
-Do **not** open public GitHub issues for security vulnerabilities. Email: support@localcloud.dev (subject: `SECURITY: <summary>`).
+Do **not** open public GitHub issues for security vulnerabilities. Email: support@eyequs.com (subject: `SECURITY: <summary>`).
