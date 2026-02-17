@@ -1,0 +1,91 @@
+name: Bug report
+description: Report a problem with LocalCloud
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue.
+
+        Please **redact secrets** (credentials, tokens, private endpoints) from logs and command output.
+
+  - type: input
+    id: version
+    attributes:
+      label: localcloud version
+      description: Output of `localcloud --version`
+      placeholder: "0.39.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install_method
+    attributes:
+      label: Install method
+      options:
+        - Homebrew (brew install localcloud)
+        - APT (apt install localcloud)
+        - Winget (winget install localcloud)
+        - curl | sh (get.localcloud.dev)
+        - PowerShell installer (get.localcloud.dev)
+        - Built from source
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 14.3 / Ubuntu 22.04 / Windows 11"
+    validations:
+      required: true
+
+  - type: input
+    id: arch
+    attributes:
+      label: Architecture
+      placeholder: "amd64 / arm64"
+    validations:
+      required: true
+
+  - type: textarea
+    id: doctor
+    attributes:
+      label: "`localcloud doctor` output"
+      description: Run `localcloud doctor` and paste the output here.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide minimal steps or a small repro repo if possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Include relevant logs and error messages (redact secrets).
+      render: text
+    validations:
+      required: false

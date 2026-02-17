@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.localcloud.dev
+    about: Installation, configuration, troubleshooting, and usage docs.
+  - name: Support (Email)
+    url: mailto:support@localcloud.dev
+    about: Private support requests, licensing, or sensitive issues.
+  - name: Security
+    url: mailto:support@localcloud.dev?subject=SECURITY%3A%20LocalCloud%20Report
+    about: Report security vulnerabilities privately (do not open public issues).
