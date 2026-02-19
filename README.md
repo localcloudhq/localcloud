@@ -4,7 +4,7 @@ This repository is the **public issue tracker** and customer-facing meta reposit
 
 - Downloads: https://get.localcloud.dev
 - Release manifests: https://releases.localcloud.dev/stable/manifest.json
-- v0.39.0 quickstart: [`releases/v0.39.0.md`](releases/v0.39.0.md)
+- v0.39.2 quickstart: [`releases/v0.39.2.md`](releases/v0.39.2.md)
 - Documentation: https://docs.localcloud.dev
 
 ## Support & Warranty
